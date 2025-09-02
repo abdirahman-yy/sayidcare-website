@@ -1,0 +1,56 @@
+/* Waivers Section */
+.waivers {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.waivers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.waivers-grid-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.waiver-card {
+  text-align: center;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.waiver-card:hover {
+  transform: translateY(-3px);
+}
+
+.waiver-card h3 {
+  color: #2c5aa0;
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .waivers-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .waivers-grid-bottom {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .waiver-card {
+    padding: 1.5rem;
+  }
+} 
