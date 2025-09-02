@@ -2,7 +2,7 @@
   "name": "sayid-care-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abdirahman-yy.github.io/sayidcare-website",
+  "homepage": "https://sayidcare.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
